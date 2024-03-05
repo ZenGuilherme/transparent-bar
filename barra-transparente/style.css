@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins',sans-serif;
+}
+
+html{
+    height: 100vh;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 3%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    transition: .8s;
+    }
+
+header.rolagem{
+    background-color: rgb(241, 200, 200);
+    padding: 20px 4%;
+}
+
+header.rolagem a{
+     color:  lightcoral;
+}
+
+header.rolagem a, header.rolagem i{
+    color:  rgb(0, 134, 183);
+}
+    header i{
+        font-size: 30px;
+        color: #fff;
+        
+}
+
+
+    header ul{
+        list-style-type: none;
+        
+    }
+
+    header ul li{
+        display: inline-block;
+        margin: 0 150px;
+    }
+
+    header ul li a{
+        color: #fff;
+        text-decoration: none ;
+    }
+    .btn-parceiros button{
+        width: 120px;
+        height: 40px;
+        border: 0;
+        background-color: lightcoral;
+        color: #fff;
+        cursor: pointer;
+        transition: .2s;
+}
+
+    .banner{
+        height: 100vh;
+        background-image: url(assets/Imagem\ 05-03-2024\ às\ 02.21.jpg);
+        background-position: 100% 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         }
+
+    .banner h1{
+        color: bisque;
+        font-size: 4em;
+    }
+
+    .banner h1 span{
+        color: rgb(0, 134, 183);
+   
+        
+    }
+
+    footer{
+        background-color: #c0bec0;
+    }
+
+    footer h3{
+        font-family: sans-serif;
+        color: black;
+   font-weight: 10;
+   height: 30px;
+   display: flex;
+        align-items: center;
+        justify-content: center;
+    }
